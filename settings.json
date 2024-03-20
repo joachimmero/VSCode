@@ -1,0 +1,12 @@
+{
+    "vim.smartRelativeLine": true,
+    "editor.cursorSurroundingLines": 15,
+    "vim.normalModeKeyBindings": [
+    // ...
+    {
+      "before": ["<leader>", "p", "v"],
+      "commands": ["workbench.view.explorer"]
+    },
+  ],
+  "vim.leader": " "
+}
